@@ -12,7 +12,8 @@ Churn describes a state where a customer
 unsubscribes or leaves an organization for its competitor, thereby leading to a loss in revenue
 and profit. It is calculated by the number of customers who leave your company during a given time period, meaning
 churn rate shows how your business is doing with keeping customers by your side.
-Why does churn matter?
+
+## Why does churn matter?
 The financial aspect of churn that causes most trouble.
 The cost of acquring a customer is higher than the cost of retination and that is the reason why a bank would try to keep their old customers
 And it costs even more to bring a new customer up to the same level as an existing customer
