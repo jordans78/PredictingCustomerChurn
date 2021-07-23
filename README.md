@@ -28,4 +28,5 @@ not have much value if they are not studied to reveal the information contained 
 Our model will forecast customer churn based on patterns that were noted in the past, by analyzing features such as personal details, earnings and spending habits.
 
 Test picture
-https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/ScikitlearnEnviroment/RocCurves.png
+![alt text](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/ScikitlearnEnviroment/RocCurves.png)
+
