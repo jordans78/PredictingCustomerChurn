@@ -1,7 +1,0 @@
-scikit-learn==0.23.2
-numpy==1.19.5
-xgboost==1.4.2
-pandas-profiling==3.0.0
-pycaret-nightly==2.3.1.dev1624408744
-matplotlib @ file:///C:/ci/matplotlib-suite_1613408055530/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
