@@ -30,3 +30,26 @@ Our model will forecast customer churn based on patterns that were noted in the 
 
 ![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/ScikitlearnEnviroment/RocCurves.png)
 
+
+# Test table
+| Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Percision 	| Recall 	| F1 Score 	|
+|---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
+| Python 	| Scikitlearn  	| XGBoost 	| 0.976 	| 0.982 	| 0.990 	| 0.986 	|
+| Python 	| Scikitlearn  	| Logistic   Regression 	| 0.976 	| 0.921 	| 0.967 	| 0.944 	|
+| Python 	| Scikitlearn  	| Random Forest 	| 0.962 	| 0.968 	| 0.988 	| 0.977 	|
+| Python 	| PyCaret 	| CatBoost Classifier 	| 0.973 	| 0.978 	| 0.990 	| 0.984 	|
+| Python 	| PyCaret 	| Light Gradient Boosting Machine 	| 0.973 	| 0.980 	| 0.988 	| 0.984 	|
+| Python 	| PyCaret 	| Extreme Gradient Boosting 	| 0.972 	| 0.979 	| 0.987 	| 0.983 	|
+| R 	| Caret 	| c5.0 	| 0.971 	|   	|   	|   	|
+| R 	| Caret 	| Stochastic   Gradient Boosting 	| 0.965 	|   	|   	|   	|
+| R 	| Caret 	| Random Forest 	| 0.966 	|   	|   	|   	|
+
+
+
+
+
+
+
+
+
+
