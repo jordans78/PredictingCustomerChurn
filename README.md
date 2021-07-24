@@ -34,7 +34,7 @@ Daset is aviable of this link https://drive.google.com/drive/folders/1ogUkw24Qmb
 ![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/ScikitlearnEnviroment/RocCurves.png)
 
 
-# Test table
+# Comparison of three best models 
 | Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Percision 	| Recall 	| F1 Score 	|
 |---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | Python 	| Scikitlearn  	| XGBoost 	| 0.976 	| 0.982 	| 0.990 	| 0.986 	|
