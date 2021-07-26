@@ -73,6 +73,42 @@ Handling missing values is an essential part of data cleaning and preparation pr
 Our dataset does not have any nulls or blanks. However, there are a few unussual values in the Months_on_book column which can be noticed from the histogram  and the boxplot, 
 since there are only 52 cases of unusual value, we decedied that removing these rows will not do any harm to the dataset in this case so we filtered out this column's values between 0 and 500 months.
 
+# Classification models
+
+## 1. Scikit-learn environment
+
+In our manual approach in Scikit-learn environment, we used seven main supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
+
+
+**Dummy classifier (DC)**.We started with a DC like baseline classifier.This kind of model often is used like a benchmark or in other words if this model gives us better results than other models we don’t need to use other sophisticated models and vice versa. For the purpose of this modeling we used  stratified  DC which generates random predictions by respecting the training set class distribution.Output metrics from this model are: Accuracy 0.7176, Precision  0.8380, Recall 0.8226, F1 Score 0.8303 and FBeta Score 0.8378.Тhese metrics will take as a benchmark and expect the following models give us much better results.
+
+**Naive bayes (NB)**. In statistics, naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naïve) independence assumptions between the features. Output metrics from this model are: Accuracy 0.894293, Precision  0.937315, Recall 0.936761, F1 Score 0.937038 and FBeta Score 0.937310.Тhese metrics are better than metrics from DC, so now we have solid base to continue to examine further with other models.
+
+**Decision Tree (DT)**. Decision tree learning or induction of decision trees is one of the predictive modelling approaches used in statistics, data mining and machine learning. It uses a decision tree (as a predictive model) to go from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). Output metrics from this model are: Accuracy 0.913151, Precision  0.937315, Recall 0.973995, F1 Score 0.949582 and FBeta Score 0.926812.Тhese metrics are better than metrics from DC and also NB. In order to make better results with this model we applied fine tuning with this algorithm. Output metrics from this model are: Accuracy 0.941935, Precision  0.960257, Recall 0.971040, F1 Score 0.965619 and FBeta Score 0.960363.So here we can conclude that DT with tuning  parameters fitting better than DT  model with default parameters.
+
+
+**K-Nearest Neighbors (KNN)**. In statistics, the k-nearest neighbors algorithm (k-NN) is a non-parametric classification method first developed by Evelyn Fix and Joseph Hodges in 1951, and later expanded by Thomas Cover. It is used for classification and regression.In this case we used KNN for classification problem.Output metrics from this model are: Accuracy 0.895782 , Precision  0.927336, Recall 0.950355, F1 Score 0.938704 and FBeta Score 0.927558.In order to make better results with this model we applied fine tuning with this algorithm. Output metrics from this model are: Accuracy 0.887841, Precision 0.909497, Recall 0.962175 , F1 Score 0.935095 and FBeta Score 0.909990. So here we can conclude that KNN with default parameters fitting better than KNN model with tuning parameters.
+
+**eXtreme Gradient Boosting (XGBoost)**. Gradient Boosting Machines are one of the most popular boosting machines and were originally devised by Jerome Friedman. Gradient Boosting Machines are considered a ‘gradient buster’ as the algorithm iteratively solves residuals and the boosted characteristics are derived from the use of multiple weak models algorithmically (Gutierrez, 2015, p. 247). Output metrics from this model are: Accuracy 0.976179 , Precision  0.981829 , Recall 0.989953 , F1 Score 0.985874 and FBeta Score 0.981909. In order to make better results with this model we applied fine tuning with this algorithm. Results with this model we applied fine tuning with this algorithm but results are the same as with default parameters.
+
+**Logistic regression (LR)**. Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression(or logit regression) is estimating the parameters of a logistic model (a form of binary regression). Output metrics from this model are: Accuracy 0.976179 , Precision 0.920697 , Recall 0.967494 , F1 Score 0.943516 and FBeta Score 0.921139.
+
+**Random forests (RF)**. These ensemble methods usually combine the classification and prediction results of many different models. The individual models are known as ‘weak learners’ because individually they have poor predictive performance. Random forests are an ensemble classifier that fits a large number of decision trees to a data set, and then combines the predictions from all the trees and for regression, forests are created by averaging over trees.Output metrics from this model are: Accuracy 0.882878, Precision 0.881952, Recall 0.993499 , F1 Score 0.934408 and FBeta Score 0.882933. In order to make better results with this model we applied fine tuning with this algorithm. Output metrics from this model are: Accuracy 0.961787 , Precision 0.967574 , Recall 0.987589 , F1 Score 0.977479   and FBeta Score 0.967768.So here we can conclude that RF with tuned parameters can fit much better than with default. 
+
+A total of seven supervised models were assessed. The best performing model is XGBoost which predicted customs churn with 97,61% accuracy.
+
+# 2. PyCaret environment      
+
+In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
+
+
+
+
+
+
+
+
+
 
 
 ![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/ScikitlearnEnviroment/RocCurves.png)
