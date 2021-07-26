@@ -97,9 +97,6 @@ In our manual approach in Scikit-learn environment, we used seven main supervise
 
 A total of seven supervised models were assessed. The best performing model is XGBoost which predicted customs churn with 97,61% accuracy.
 
-# 2. PyCaret environment      
-
-In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
 
 
 
@@ -112,6 +109,11 @@ In our automatic approach in PyCaret environment, we used fifteen  supervised le
 
 
 ![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/ScikitlearnEnviroment/RocCurves.png)
+
+
+# 2. PyCaret environment      
+
+In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
 
 
 # Comparison of three best models 
