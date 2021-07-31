@@ -110,9 +110,14 @@ In our automatic approach in PyCaret environment, we used fifteen  supervised le
 
 
 
+![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/CaretEnviroment/FinalResults.PNG)
+
 
 
 # 3. R environment
+
+
+![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/Results.PNG)
 
 
 
