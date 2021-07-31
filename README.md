@@ -122,7 +122,7 @@ In our approach to machine learning in R environment, we used seven different su
 
 **Stochastic Gradient Boosting(GBM)**. In the previous section we already explain this model so here we will focus only on output metrics. Output metrics from this model are: Accuracy 0.999, Kappa 0.9963, Sensitivity 0.9988, Specificity 1.0000, Pos Pred Value : 1.0000 , Pos Pred Value 1.0000 and Neg Pred Value 0.9938. With repeated cross validation mean values of output metrics are: Accuracy 0.9707856 and Kappa 0.8902905. 
 
-**Random Forest(RF)**. Similar like GBM here we will only focus on results. Output metrics from this model are: Accuracy 0.999, Kappa 0.9963, Sensitivity 0.9988, Specificity 1.0000, Pos Pred Value : 1.0000 , Pos Pred Value 1.0000 and Neg Pred Value 0.9938. With repeated cross validation mean values of output metrics are: Accuracy 0.9707856 and Kappa 0.8902905. 
+**Random Forest(RF)**. In the previous section we already explain this model so here we will focus only on output metrics and similar like GBM here we will only focus on results. Output metrics from this model are: Accuracy 0.999, Kappa 0.9963, Sensitivity 0.9988, Specificity 1.0000, Pos Pred Value : 1.0000 , Pos Pred Value 1.0000 and Neg Pred Value 0.9938. With repeated cross validation mean values of output metrics are: Accuracy 0.9707856 and Kappa 0.8902905. 
 
 **K-Nearest Neighbors (KNN)**. Similar like GBM and RF here we will only focus on results.Output metrics from this model are: Accuracy 0.999, Kappa 0.9963, Sensitivity 0.9988, Specificity 1.0000, Pos Pred Value : 1.0000 , Pos Pred Value 1.0000 and Neg Pred Value 0.9938. With repeated cross validation mean values of output metrics are: Accuracy 0.9707856 and Kappa 0.8902905. 
 
