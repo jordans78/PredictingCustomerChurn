@@ -116,8 +116,20 @@ In our automatic approach in PyCaret environment, we used fifteen  supervised le
 
 # 3. R environment
 
+In our approach to machine learning in R environment, we used seven main supervised learning algorithms:  C5.0 algorithm (C5.0 ), Naive bayes(NB), Decision Tree Classifier (DT), KNeighborsClassifier (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression (LR) and Random Forest Classifier (RF).  
 
-![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/Results.PNG)
+**C5.0.** While there are numerous implementations of decision trees, one of the most well-known is the C5.0 algorithm. This algorithm is an evolution of the C4.5 of Quinlan (1993). The C5.0 algorithm has become the industry standard for producing decision trees, because it does well on foremost types of problems directly out of the box. Compared to more advanced and sophisticated machine learning models the decision trees under the C5.0 algorithm generally perform nearly as well but are much easier to understand and deploy.
+
+
+**Classification and regression trees (CART).** Originally CART was proposed by Breiman et al. (1984). This form of algorithm is a decision tree and is designed for numerical, continuous predictors and categorical response variables. However, decisions trees are highly prone to overfitting and we must be aware of this weakness. 
+
+
+**Stochastic Gradient Boosting(GBM)**. In the previous section we already explain this model so here we will focus only on output metrics. Namely this model have : Accuracy 0.894293, Precision  0.937315, Recall 0.936761, F1 Score 0.937038 and FBeta Score 0.937310.Тhese metrics are better than metrics from DC, so now we have solid base to continue to examine further with other models. 
+
+
+
+
+![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.PNG)
 
 
 
