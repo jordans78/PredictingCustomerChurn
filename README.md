@@ -135,8 +135,6 @@ In our approach to machine learning in R environment, we used seven different su
 **Logistic regression (LR)**. Similar like GBM,RF and KNN here we will only focus on results. Output metrics from this model are: Accuracy 0.999, Kappa 0.9963, Sensitivity 0.9988, Specificity 1.0000, Pos Pred Value : 1.0000 , Pos Pred Value 1.0000 and Neg Pred Value 0.9938. With repeated cross validation mean values of output metrics are: Accuracy 0.9707856 and Kappa 0.8902905. 
 
 
-![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.png)
-
 <p aligh="center">
 <img src="https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.png" 
 with="50%" height="50%"/> 
