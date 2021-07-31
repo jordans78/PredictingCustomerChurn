@@ -137,7 +137,11 @@ In our approach to machine learning in R environment, we used seven different su
 
 ![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.png)
 
-<img src="https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.png" with="25%" height="25%/> 
+<p aligh="center">
+<img src="https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.png" 
+with="50%" height="50%"/> 
+</p>                                                                                                                                   
+                                                                                                                                   
 
 
 
