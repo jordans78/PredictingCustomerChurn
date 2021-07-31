@@ -129,7 +129,7 @@ In our approach to machine learning in R environment, we used seven main supervi
 
 
 
-![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.PNG)
+![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/R/AccurancyBoxPlots.png)
 
 
 
