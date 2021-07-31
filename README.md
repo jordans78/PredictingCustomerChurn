@@ -109,6 +109,16 @@ In our case, beside the Dummy classifier, all the models showed a AUC above 0.5.
 In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
 
 
+
+
+
+# 3. R environment
+
+
+
+
+
+
 # Comparison of three best models 
 | Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Percision 	| Recall 	| F1 Score 	|
 |---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
