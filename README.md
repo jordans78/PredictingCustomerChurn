@@ -143,7 +143,6 @@ with="50%" height="50%"/>
 
 
 
-
 # Comparison of three best models 
 | Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Percision 	| Recall 	| F1 Score 	|
 |---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
