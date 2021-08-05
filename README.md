@@ -95,6 +95,20 @@ In our manual approach in Scikit-learn environment, we used seven main supervise
 
 **Random forests (RF)**. These ensemble methods usually combine the classification and prediction results of many different models. The individual models are known as ‘weak learners’ because individually they have poor predictive performance. Random forests are an ensemble classifier that fits a large number of decision trees to a data set, and then combines the predictions from all the trees and for regression, forests are created by averaging over trees.Output metrics from this model are: Accuracy 0.882878, Precision 0.881952, Recall 0.993499 , F1 Score 0.934408 and FBeta Score 0.882933. In order to make better results with this model we applied fine tuning with this algorithm. Output metrics from this model are: Accuracy 0.961787 , Precision 0.967574 , Recall 0.987589 , F1 Score 0.977479   and FBeta Score 0.967768.So here we can conclude that RF with tuned parameters can fit much better than with default. 
 
+| Classifier 	| Accuracy 	| Percision 	| Recall 	| F1   Score 	| Fbeta_score 	|
+|---	|:---:	|:---:	|:---:	|:---:	|:---:	|
+| Dummy classifier 	| 0.717618 	| 0.838049 	| 0.822695 	| 0.830301 	| 0.837895 	|
+| GaussianNB 	| 0.894293 	| 0.937315 	| 0.936761 	| 0.937038 	| 0.93731 	|
+| Decision Tree 	| 0.913151 	| 0.926363 	| 0.973995 	| 0.949582 	| 0.926812 	|
+| Decision Tree-Refit 	| 0.941935 	| 0.960257 	| 0.97104 	| 0.965619 	| 0.960363 	|
+| KNN 	| 0.895782 	| 0.927336 	| 0.950355 	| 0.938704 	| 0.927558 	|
+| KNN-Refit 	| 0.887841 	| 0.909497 	| 0.962175 	| 0.935095 	| 0.90999 	|
+| XGBoost 	| 0.976179 	| 0.981829 	| 0.989953 	| 0.985874 	| 0.981909 	|
+| XGBoost-Refit 	| 0.976179 	| 0.981829 	| 0.989953 	| 0.985874 	| 0.981909 	|
+| Logistic Regression 	| 0.976179 	| 0.920697 	| 0.967494 	| 0.943516 	| 0.921139 	|
+| Random Forest 	| 0.882878 	| 0.881952 	| 0.993499 	| 0.934408 	| 0.882933 	|
+| Random Forest-Refit 	| 0.961787 	| 0.967574 	| 0.987589 	| 0.977479 	| 0.967768 	|
+
 A total of seven supervised models were assessed. The best performing model is XGBoost which predicted customs churn with 97,61% accuracy.
 
 ** The ROC curve**.
