@@ -111,9 +111,23 @@ In our case, beside the Dummy classifier, all the models showed a AUC above 0.5.
 In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
 
 
-
-![Test picture](https://github.com/jordans78/PredictingCustomerChurn/blob/main/Documentation/Python/CaretEnviroment/FinalResults.PNG)
-
+| Model 	| Short name 	| Accuracy 	| AUC 	| Recall 	| Prec. 	| F1 	| Kappa 	| MCC 	| TT (Sec) 	|
+|---	|---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
+| CatBoost Classifier 	| catboost 	| 0.9721 	| 0.9947 	| 0.9886 	| 0.9784 	| 0.9834 	| 0.8946 	| 0.8954 	| 3.161 	|
+| Light Gradient Boosting   Machine 	| lightgbm 	| 0.9701 	| 0.9935 	| 0.9867 	| 0.9778 	| 0.9822 	| 0.8876 	| 0.8883 	| 0.412 	|
+| Extreme Gradient Boosting 	| xgboost 	| 0.9702 	| 0.993 	| 0.9887 	| 0.9761 	| 0.9824 	| 0.8872 	| 0.8885 	| 0.996 	|
+| Gradient Boosting   Classifier 	| gbc 	| 0.9628 	| 0.989 	| 0.9877 	| 0.9685 	| 0.978 	| 0.8567 	| 0.859 	| 0.745 	|
+| Ada Boost Classifier 	| ada 	| 0.9546 	| 0.9852 	| 0.9786 	| 0.9676 	| 0.9731 	| 0.8282 	| 0.8296 	| 0.213 	|
+| Random Forest Classifier 	| rf 	| 0.9496 	| 0.9849 	| 0.9889 	| 0.9529 	| 0.9705 	| 0.798 	| 0.8051 	| 0.299 	|
+| Extra Trees Classifier 	| et 	| 0.9139 	| 0.9625 	| 0.9907 	| 0.9139 	| 0.9508 	| 0.614 	| 0.6479 	| 0.3 	|
+| Linear Discriminant   Analysis 	| lda 	| 0.9128 	| 0.929 	| 0.9668 	| 0.9318 	| 0.949 	| 0.6506 	| 0.6561 	| 0.049 	|
+| Decision Tree Classifier 	| dt 	| 0.9334 	| 0.8811 	| 0.9584 	| 0.9621 	| 0.9602 	| 0.7561 	| 0.7572 	| 0.04 	|
+| Quadratic Discriminant   Analysis 	| qda 	| 0.8416 	| 0.6327 	| 0.9921 	| 0.8457 	| 0.913 	| 0.0827 	| 0.1582 	| 0.033 	|
+| Naive Bayes 	| nb 	| 0.8368 	| 0.5681 	| 0.996 	| 0.8393 	| 0.9109 	| 0.0119 	| 0.0378 	| 0.021 	|
+| Logistic Regression 	| lr 	| 0.8385 	| 0.5547 	| 1 	| 0.8384 	| 0.9121 	| 0.0014 	| 0.0085 	| 0.747 	|
+| K Neighbors Classifier 	| knn 	| 0.8189 	| 0.5399 	| 0.9652 	| 0.8419 	| 0.8993 	| 0.0367 	| 0.0498 	| 0.11 	|
+| SVM - Linear Kernel 	| svm 	| 0.2965 	| 0 	| 0.1993 	| 0.5677 	| 0.1832 	| 0.002 	| 0.0032 	| 0.032 	|
+| Ridge Classifier 	| ridge 	| 0.9032 	| 0 	| 0.9864 	| 0.9065 	| 0.9447 	| 0.561 	| 0.5958 	| 0.02 	|
 
 
 # 3. R environment
