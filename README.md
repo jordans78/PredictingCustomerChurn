@@ -108,7 +108,8 @@ In our case, beside the Dummy classifier, all the models showed a AUC above 0.5.
 
 # 2. PyCaret environment      
 
-In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  Dummy classifier (DC), Naive bayes (NB), Decision Tree (DT), K-Nearest Neighbors (KNN), eXtreme Gradient Boosting (XGBoost), Logistic regression(LR) and Random Forest (RF).
+In our automatic approach in PyCaret environment, we used fifteen  supervised learning algorithms:  CatBoost Classifier(catboost),Light Gradient Boosting Machine (lightgbm),Extreme Gradient Boosting(xgboost),Gradient Boosting Classifier(gbc),Ada Boost Classifier(ada),Random Forest Classifier(rf),Extra Trees Classifier(et),
+Linear Discriminant Analysis(lda),Decision Tree Classifier(dt),Quadratic Discriminant Analysis(qda),Naive Bayes	(nb), Logistic Regression(lr),K Neighbors Classifier	(knn), SVM - Linear Kernel(svm) and Ridge Classifier (ridge)
 
 
 | Model 	| Short name 	| Accuracy 	| AUC 	| Recall 	| Prec. 	| F1 	| Kappa 	| MCC 	| TT (Sec) 	|
