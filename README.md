@@ -211,9 +211,6 @@ with="50%" height="50%"/>
 *Conclusion*
 
 
-
-
-
 | Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Kappa 	|
 |---	|---	|---	|:---:	|:---:	|
 | Python 	| Scikitlearn 	| XGBoost 	| 0.976 	| 0.910 	|
@@ -227,6 +224,9 @@ with="50%" height="50%"/>
 | R 	| Caret 	| Random Forest   Classifier 	| 0.966 	| 0.869 	|
 
 
+In solving this business problem we used two ecosystems with three different environments where we tested with 35 models. First ecosystem was Python with Scikit-Learn and PyCaret environment. Differences between two environments are generally in their approach to solving the same problem. Namely PyCaret is more automatic oriented and enables testing with a bunch of algorithms, while Scikit-Learn is more manually oriented. Hoewer both approaches show solid results of accuracy of around 97%.
+In the R ecosystem we used the Caret environment. Here we applied more robust techniques based on repeated cross validation (10 folds and 3 repeats which is a common standard configuration for comparing models). The use of this approach is justified for reasons that tree-based models often can be overfitted and for that reason it is better to repeat this procedure several times.With this approach we also got results of accuracy of around 96-97%.
+At the end we can conclude that all three environments give us good results and the best model is XGBoost with accuracy of 97,61%. 
 
 
 
