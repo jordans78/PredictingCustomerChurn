@@ -208,7 +208,7 @@ with="50%" height="50%"/>
 </p>                                                                                                                                   
                                                                                                                                    
 
-**CONCLUSION**
+# 4. CONCLUSION
 
 Comparison of the three best models from different ecosystems
 
