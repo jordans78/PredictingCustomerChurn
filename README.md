@@ -208,8 +208,9 @@ with="50%" height="50%"/>
 </p>                                                                                                                                   
                                                                                                                                    
 
-*Conclusion*
+**CONCLUSION**
 
+Comparison of the three best models from different ecosystems
 
 | Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Kappa 	|
 |---	|---	|---	|:---:	|:---:	|
