@@ -209,21 +209,43 @@ with="50%" height="50%"/>
                                                                                                                                    
 
 
-
-# Comparison of three best models 
-| Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Percision 	| Recall 	| F1 Score 	|
-|---	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
-| Python 	| Scikitlearn  	| XGBoost 	| 0.976 	| 0.982 	| 0.990 	| 0.986 	|
-| Python 	| Scikitlearn  	| Logistic   Regression 	| 0.976 	| 0.921 	| 0.967 	| 0.944 	|
-| Python 	| Scikitlearn  	| Random Forest 	| 0.962 	| 0.968 	| 0.988 	| 0.977 	|
-| Python 	| PyCaret 	| CatBoost Classifier 	| 0.973 	| 0.978 	| 0.990 	| 0.984 	|
-| Python 	| PyCaret 	| Light Gradient Boosting Machine 	| 0.973 	| 0.980 	| 0.988 	| 0.984 	|
-| Python 	| PyCaret 	| Extreme Gradient Boosting 	| 0.972 	| 0.979 	| 0.987 	| 0.983 	|
-| R 	| Caret 	| c5.0 	| 0.971 	|   	|   	|   	|
-| R 	| Caret 	| Stochastic   Gradient Boosting 	| 0.965 	|   	|   	|   	|
-| R 	| Caret 	| Random Forest 	| 0.966 	|   	|   	|   	|
-
-
+| Ecosystem 	| Enviroment 	| Classifier 	| Accuracy 	| Kappa 	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|
+| Python 	| Scikitlearn 	| Dummy classifier 	| 0.718 	| -0.010 	|
+| Python 	| Scikitlearn 	| GaussianNB 	| 0.894 	| 0.608 	|
+| Python 	| Scikitlearn 	| Decision Tree 	| 0.913 	| 0.638 	|
+| Python 	| Scikitlearn 	| Decision Tree-Refit 	| 0.941 	| 0.776 	|
+| Python 	| Scikitlearn 	| KNN 	| 0.896 	| 0.591 	|
+| Python 	| Scikitlearn 	| KNN-Refit 	| 0.888 	| 0.525 	|
+| Python 	| Scikitlearn 	| XGBoost 	| 0.976 	| 0.910 	|
+| Python 	| Scikitlearn 	| XGBoost-Refit 	| 0.976 	| 0.894 	|
+| Python 	| Scikitlearn 	| Logistic Regression 	| 0.976 	| 0.595 	|
+| Python 	| Scikitlearn 	| Random Forest 	| 0.883 	| 0.406 	|
+| Python 	| Scikitlearn 	| Random Forest-Refit 	| 0.962 	| 0.852 	|
+| Python 	| PyCaret 	| CatBoost   Classifier 	| 0.972 	| 0.895 	|
+| Python 	| PyCaret 	| Light   Gradient Boosting Machine 	| 0.970 	| 0.888 	|
+| Python 	| PyCaret 	| Extreme   Gradient Boosting 	| 0.970 	| 0.887 	|
+| Python 	| PyCaret 	| Gradient   Boosting Classifier 	| 0.963 	| 0.857 	|
+| Python 	| PyCaret 	| Ada   Boost Classifier 	| 0.955 	| 0.828 	|
+| Python 	| PyCaret 	| Random   Forest Classifier 	| 0.950 	| 0.798 	|
+| Python 	| PyCaret 	| Extra   Trees Classifier 	| 0.914 	| 0.614 	|
+| Python 	| PyCaret 	| Linear   Discriminant Analysis 	| 0.913 	| 0.651 	|
+| Python 	| PyCaret 	| Decision   Tree Classifier 	| 0.933 	| 0.756 	|
+| Python 	| PyCaret 	| Quadratic   Discriminant Analysis 	| 0.842 	| 0.083 	|
+| Python 	| PyCaret 	| Naive   Bayes 	| 0.837 	| 0.012 	|
+| Python 	| PyCaret 	| Logistic   Regression 	| 0.839 	| 0.001 	|
+| Python 	| PyCaret 	| K   Neighbors Classifier 	| 0.819 	| 0.037 	|
+| Python 	| PyCaret 	| SVM   - Linear Kernel 	| 0.297 	| 0.002 	|
+| Python 	| PyCaret 	| Ridge   Classifier 	| 0.903 	| 0.561 	|
+| R 	| Caret 	| C5.0 	| 0.971 	| 0.890 	|
+| R 	| Caret 	| Extreme   Gradient Boosting 	| 0.965 	| 0.866 	|
+| R 	| Caret 	| Random   Forest Classifier 	| 0.966 	| 0.869 	|
+| R 	| Caret 	| KNN 	| 0.861 	| 0.288 	|
+| R 	| Caret 	| KNN_refit 	| 0.861 	| 0.293 	|
+| R 	| Caret 	| CART 	| 0.906 	| 0.633 	|
+| R 	| Caret 	| SVM 	| 0.923 	| 0.674 	|
+| R 	| Caret 	| SVM_Refit 	| 0.929 	| 0.718 	|
+| R 	| Caret 	| LR 	| 0.905 	| 0.608 	|
 
 
 
