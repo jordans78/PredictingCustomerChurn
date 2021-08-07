@@ -112,7 +112,7 @@ In our manual approach in Scikit-learn environment, we used seven main supervise
 
 A total of seven supervised models were assessed. The best performing model is XGBoost which predicted customs churn with 97,61% accuracy.
 
-** The ROC curve**.
+**The ROC curve**.
 
 In order to evaluate the classifiaction models we used the Receiver Operationg Characteristic, which is a very usful tool when predicting the probability of a binary outcome. THE ROC curve is probbility curve that plots the True positive rate agains the false positive rate. The true positive rate is calculated as the number of true positives divided by the sum of the number of true positives and the number of false negatives and it describes how good the model is at predicting the positive class when the actual outcome is positive. The false positive rate is calculated as the number of false positives divided by the sum of the number of false positives and the number of true negatives and it summarizes how often a positive class is predicted when the actual outcome is negative. The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve. The higher the AUC the he better the performance of the model. When 0.5<AUC<1, there is a high chance that the classifier will be able to distinguish the positive class values from the negative class values.
 
