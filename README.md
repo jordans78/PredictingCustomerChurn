@@ -145,6 +145,7 @@ Linear Discriminant Analysis(lda),Decision Tree Classifier(dt),Quadratic Discrim
 | SVM - Linear Kernel 	| svm 	| 0.2965 	| 0 	| 0.1993 	| 0.5677 	| 0.1832 	| 0.002 	| 0.0032 	| 0.032 	|
 | Ridge Classifier 	| ridge 	| 0.9032 	| 0 	| 0.9864 	| 0.9065 	| 0.9447 	| 0.561 	| 0.5958 	| 0.02 	|
 
+A total of seven supervised models were assessed. The best performing model is CatBoost Classifier which predicted customs churn with 97,2% accuracy.
 
 # 3. R environment
 
@@ -199,7 +200,7 @@ With repeated cross validation mean values of output metrics are: Accuracy 0.904
 | LR 	| 0.5504136 	| 0.5878576 	| 0.6100805 	| 0.6082591 	| 0.6329778 	| 0.6801954 	|
 
 
-
+A total of seven supervised models were assessed. The best performing model is C5.0 which predicted customs churn with 97,1% accuracy.
 
 
 <p aligh="center">
